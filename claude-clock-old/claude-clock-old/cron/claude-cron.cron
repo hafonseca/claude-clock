@@ -1,0 +1,5 @@
+58 4 * * * cd /opt/claude-clock && ./scripts/send_message.sh "Good morning!"
+
+59 9 * * * cd /opt/claude-clock && ./scripts/send_message.sh "Hello!"
+
+0 15 * * * cd /opt/claude-clock && ./scripts/send_message.sh "Good afternoon!"
